@@ -51,12 +51,7 @@ nav{
     --FontNunito: 'Nunito Extra light', cursive;
 }
 
-.img-meninas {
-padding-top: 50px;
-background-color: #01042e;
-}
-
-.container > h2{
+main > h2 {
     color:var(--cinzaescuro);
     font-family: var(--FontPoppinsMedium);
     font-size: 42px;
