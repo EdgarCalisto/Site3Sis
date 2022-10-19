@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+.container{
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 300;
+    background-color:var(--rosafundo);
+}
+
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fontes/Poppins/Poppins-Bold.ttf') format('truetype');
+    font-weight: normal;
+}
+
+
+@font-face{
+    font-family: 'Poppins Medium';
+    src: url('../fontes/Poppins/Poppins-Medium.ttf') format('truetype');
+    font-weight: normal;
+}
+
+
+@font-face{
+    font-family: 'Nunito Extra light';
+    src: url('../fontes/Nunito/Nunito-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-color:var(--rosafundo)
+
+}
+
+
+nav{
+    color: #595959;
+    font-family:var(--FontPoppinsMedium) ;
+}
+
+
+:root{
+    --rosafundo: #f7f7f7;
+    --rosamedio: #F294C0;
+    --rosaescuro: #F15992;
+    --cinzaclaro: #808080;
+    --cinzaescuro: #4A4A4A;
+
+    --FontPoppins: 'Poppins',cursive;
+    --FontPoppinsMedium: 'Poppins Medium', cursive;
+    --FontNunito: 'Nunito Extra light', cursive;
+}
+
+.img-meninas {
+padding-top: 50px;
+}
+
+.container > h2{
+    color:var(--cinzaescuro);
+    font-family: var(--FontPoppinsMedium);
+    font-size: 42px;
+    min-width: 280px;
+    max-width: 500px;
+    padding-left: 100px;
+    padding-top: 60px; 
+}
+
+
+nav > img{
+    padding-left: 100px;
+    padding-top: 25px;
+    padding-right: 100px;
+    padding-bottom: -20px;
+}
+
+
+nav > a{
+    padding-left: 50px;
+    padding-bottom: 100px;
+    font-size: 16px;
+    text-decoration: none;
+    transition-duration: .5s;
+}
+
+nav a:hover{
+    color: var(--rosaescuro);
+}
+.container > article { 
+    color:#F15992;
+    font-family: var(--FontNunito);
+    font-size: 18px;
+    min-width: 280px;
+    max-width: 500px;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-block-end: 200px;
+}
+footer > p {
+    font-family: var(--FontNunito);
+    padding-top: 10px;
+    background-color: var(--rosafundo);
+    size: 16px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer > h2 {
+    font-family: var(--FontPoppinsMedium);
+    size: 10px;
+    text-align: center;
+}
+footer > img {
+    background-color:var(--rosafundo);
+    display: block;
+    padding-top: 300px;
+    padding-bottom: 20px;
+    padding-left: 30px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer > .links {
+padding-bottom: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+footer > .links > a {
+    margin: 20px;
+}
