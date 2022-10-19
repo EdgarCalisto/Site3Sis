@@ -82,7 +82,7 @@ nav > a{
 nav a:hover{
     color: var(--rosaescuro);
 }
-.container > article { 
+main > article { 
     color:var(--cinzaescuro);
     font-family: var(--FontNunito);
     background-color: #808080;
