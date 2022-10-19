@@ -50,34 +50,54 @@ nav{
     --FontPoppinsMedium: 'Poppins Medium', cursive;
     --FontNunito: 'Nunito Extra light', cursive;
 }
+main > .Justificar {
+    display: flex;
+}
+main > div > .Textos {
+    background-color:var(--rosafundo);
+    padding-top: 40px;
+    padding-left: 100px;
+    min-width: 280px;
+    max-width: 700px;
+    justify-content: left;
 
-main > h2{
+}
+main > div > div > h2 {
     color:var(--cinzaescuro);
     font-family: var(--FontPoppinsMedium);
     font-size: 42px;
-    min-width: 280px;
-    max-width: 500px;
-    padding-left: 30px;
-    padding-top: 60px; 
-    background-color: blue;
     
+
+       
 }
-main > article { 
+
+main > div > div > article { 
     color:var(--cinzaescuro);
     font-family: var(--FontNunito);
-    background-color: #808080;
     font-size: 18px;
+    padding-top: 20px;
+    line-height: 22px;
+    text-align: justify;
+    align-items: flex-end;
+    
+}
+
+main > div > .img {
+    background-color: var(--rosafundo);
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    min-width: none;
     max-width: 500px;
-    padding-left: 30px;
 }
 
 .Nav{
     padding-top: 25px;
     padding-bottom: 20px;
-    background-color: #F15992;
+    background-color: var(--rosafundo);
 }
 nav> div> img{
-    padding-left: 30px;
+    padding-left: 100px;
     padding-right: 50px;
     
 }
@@ -111,7 +131,6 @@ footer > h2 {
 }
 footer > .img {
     background-color:var(--rosafundo);
-    display: block;
     padding-top: 150px;
     padding-bottom: 20px;  
     display: flex;
