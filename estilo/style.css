@@ -107,7 +107,7 @@ nav a:hover{
 footer > p {
     font-family: var(--FontNunito);
     padding-top: 10px;
-    background-color: var(--rosafundo);
+    background-color: #F15992;
     size: 16px;
     text-align: center;
     padding-bottom: 20px;
