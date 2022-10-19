@@ -110,11 +110,10 @@ footer > h2 {
     text-align: center;
 }
 footer > .img {
-    background-color:#F15992;
+    background-color:var(--rosafundo);
     display: block;
-    padding-top: 300px;
-    padding-bottom: 20px;
-    padding-left: 30px;   
+    padding-top: 150px;
+    padding-bottom: 20px;  
     display: flex;
     justify-content: center;
     align-items: center;
