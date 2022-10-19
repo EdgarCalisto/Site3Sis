@@ -109,7 +109,7 @@ footer > h2 {
     size: 10px;
     text-align: center;
 }
-.rodapé {
+footer > .img {
     background-color:#F15992;
     display: block;
     padding-top: 300px;
