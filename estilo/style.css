@@ -99,6 +99,7 @@ nav a:hover{
 .container > article { 
     color:var(--cinzaescuro);
     font-family: var(--FontNunito);
+    background-color: #808080;
     font-size: 18px;
     min-width: 280px;
     max-width: 500px;
