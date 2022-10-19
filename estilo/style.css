@@ -71,18 +71,21 @@ main > article {
     padding-left: 30px;
 }
 
-nav > img{
-    padding-left: 100px;
+.Nav{
     padding-top: 25px;
-    padding-right: 100px;
-    padding-bottom: -20px;
+    padding-bottom: 20px;
+    background-color: #F15992;
+}
+nav> div> img{
+    padding-left: 30px;
+    padding-right: 50px;
+    
 }
 
 
-nav > a{
-    background-color: aqua;
-    padding-left: 50px;
-    padding-bottom: 100px;
+nav > div > a{
+    padding-left: 30px;
+    padding-bottom: 250px;
     font-size: 16px;
     text-decoration: none;
     transition-duration: .5s;
