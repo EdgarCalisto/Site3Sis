@@ -51,7 +51,7 @@ nav{
     --FontNunito: 'Nunito Extra light', cursive;
 }
 
-main > h2 {
+main > h2{
     color:var(--cinzaescuro);
     font-family: var(--FontPoppinsMedium);
     font-size: 42px;
