@@ -95,7 +95,7 @@ nav a:hover{
     color: var(--rosaescuro);
 }
 .container > article { 
-    color:#1f050e;
+    color:#1a1a1a;
     font-family: var(--FontNunito);
     font-size: 18px;
     min-width: 280px;
