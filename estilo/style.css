@@ -31,13 +31,32 @@ body{
     background-color:var(--rosafundo)
 
 }
-body > nav > div > ul > span {
-    padding-left: 30px;
-}
 
 nav{
     color: #595959;
     font-family:var(--FontPoppinsMedium) ;
+}
+
+nav> img{
+    padding-left: 100px;
+    padding-right: 50px;  
+    padding-top: 25px;
+    padding-bottom: 20px;
+    background-color: var(--rosafundo);
+}
+
+nav > div > ul {
+    font-size: 16px;
+    list-style: none;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: var(--rosaescuro);
+}
+.menu > ul > li > a {
+    text-decoration: none;
 }
 
 
@@ -93,30 +112,7 @@ main > div > .img {
     max-width: 500px;
 }
 
-.Nav{
-    padding-top: 25px;
-    padding-bottom: 20px;
-    background-color: var(--rosafundo);
-}
-nav> div> img{
-    padding-left: 100px;
-    padding-right: 50px;
-    
-}
 
-
-nav > div > menu {
-    padding-left: 30px;
-    padding-bottom: 30px;
-    font-size: 16px;
-    text-decoration: none;
-    transition-duration: .5s;
-    
-}
-
-nav a:hover{
-    color: var(--rosaescuro);
-}
 
 footer > p {
     font-family: var(--FontNunito);
