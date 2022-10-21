@@ -5,20 +5,23 @@
         display: none;
     }
 
-.img {
+    nav > p {
+        display: none;
+    }
+
+    .img {
     display:block
-}
+    padding-left: 60px;
+    padding-right: 50px;  
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: var(--rosafundo);
+    display: flex;
+    }
 .img2 {
     display: none;
 }
-    nav> div > img{
-        padding-left: 60px;
-        padding-right: 50px;  
-        padding-top: 50px;
-        padding-bottom: 20px;
-        background-color: var(--rosafundo);
-        display: flex;
-    }
+
     .menu {
         display: flex;
         justify-content: left;

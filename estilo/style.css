@@ -49,6 +49,7 @@ nav > div > img {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 60px;
 }
 .material-symbols-outlined {
     padding-left: 60px;
