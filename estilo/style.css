@@ -64,7 +64,6 @@ nav a:hover{
 }
 
 
-
 :root{
     --rosafundo: #f7f7f7;
     --rosamedio: #F294C0;
@@ -76,25 +75,21 @@ nav a:hover{
     --FontPoppinsMedium: 'Poppins Medium', cursive;
     --FontNunito: 'Nunito Extra light', cursive;
 }
-main > .Justificar {
-    display: flex;
-}
+
 main > div > .Textos {
     background-color:var(--rosafundo);
     padding-top: 40px;
     padding-left: 60px;
+    padding-right: 20px;
     min-width: 280px;
-    max-width: 700px;
-    justify-content: left;
+    max-width: 400px;
 
 }
 main > div > div > h2 {
     color:var(--cinzaescuro);
     font-family: var(--FontPoppinsMedium);
     font-size: 42px;
-    
-
-       
+          
 }
 
 main > div > div > article { 
@@ -104,21 +99,12 @@ main > div > div > article {
     padding-top: 20px;
     line-height: 22px;
     text-align: justify;
-    align-items: flex-end;
-    
 }
 
 main > div > .img {
-    background-color: var(--rosafundo);
     display: flex;
     justify-content: center;
-    padding-left: 20px;
-    min-width: none;
-    max-width: 500px;
 }
-
-
-
 footer > p {
     font-family: var(--FontNunito);
     padding-top: 10px;

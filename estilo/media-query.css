@@ -1,7 +1,33 @@
 @charset "utf-8";
 
 @media screen and (min-width: 768px){
-    .material-symbols-outlined { display: none;
+    .material-symbols-outlined { 
+        display: none;
     }
-    .meninas {display: none;}
+    main > div > .img {
+        background-color: var(--rosafundo);
+        display: flex;
+        justify-content: center;
+        padding-left: 20px;
+        min-width: none;
+        max-width: 550px;
+    }
+    main > div > .Textos {
+        background-color:var(--rosafundo);
+        padding-top: 40px;
+        padding-left: 60px;
+        min-width: 280px;
+        max-width: 600px;
+        justify-content: left;
+    
+    }
+    main > div > div > article { 
+        align-items: flex-end;
+        
+    }
+    main > .Justificar {
+        display: flex;
+    }
 }
+
+    
