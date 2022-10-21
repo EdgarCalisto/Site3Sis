@@ -37,7 +37,7 @@ nav{
     font-family:var(--FontPoppinsMedium) ;
 }
 
-nav> img{
+nav> div > img{
     padding-left: 60px;
     padding-right: 50px;  
     padding-top: 25px;
@@ -61,6 +61,7 @@ nav a:hover{
 }
 .menu > ul > li > a {
     text-decoration: none;
+    
 }
 
 

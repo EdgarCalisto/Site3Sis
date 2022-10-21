@@ -4,6 +4,31 @@
     .material-symbols-outlined { 
         display: none;
     }
+
+    nav> div > img{
+        padding-left: 60px;
+        padding-right: 50px;  
+        padding-top: 25px;
+        padding-bottom: 20px;
+        background-color: var(--rosafundo);
+        display: flex;
+    }
+    .menu {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .menu > ul > li {
+        display: inline-flex;
+        justify-content: right;
+    }
+    
+    .menu > ul > li > a {
+    padding-left: 20px;
+    display: inline block;
+    }
+
+    
     main > div > .img {
         background-color: var(--rosafundo);
         display: flex;
@@ -28,6 +53,7 @@
     main > .Justificar {
         display: flex;
     }
+
 }
 
     
