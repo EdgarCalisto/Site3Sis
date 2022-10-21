@@ -103,7 +103,7 @@ nav> div> img{
 }
 
 
-nav > div > a{
+nav > div > ul > li > a{
     padding-left: 30px;
     padding-bottom: 250px;
     font-size: 16px;
