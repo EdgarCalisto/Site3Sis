@@ -30,7 +30,9 @@ body{
     background-color:var(--rosafundo)
 
 }
-
+nav > p {
+    align-items: flex-start;
+}
 nav{
     color: #595959;
     font-family:var(--FontPoppinsMedium) ;
@@ -41,6 +43,12 @@ nav > div > img {
 }
 .img {
     display: none;
+}
+
+.img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .material-symbols-outlined {
     padding-left: 60px;
