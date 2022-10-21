@@ -18,9 +18,9 @@
     background-color: var(--rosafundo);
     display: flex;
     }
-.img2 {
-    display: none;
-}
+    .img2 {
+        display: none;
+    }
 
     .menu {
         display: flex;
