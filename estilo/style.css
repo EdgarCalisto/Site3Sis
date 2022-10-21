@@ -37,10 +37,7 @@ nav{
     color: #595959;
     font-family:var(--FontPoppinsMedium) ;
 }
-nav > div > img {
 
-    padding-left: 60px;
-}
 .img {
     display: none;
 }
@@ -58,12 +55,12 @@ nav > div > img {
     cursor: pointer;
 }
 
-nav > div > ul > li {
+nav > div > div > ul > li {
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-nav > div > ul {
+nav > div > div > ul {
     font-size: 16px;
     list-style: none;
     padding-left: 60px;
@@ -83,7 +80,7 @@ nav a:hover{
 .menu {
     display: none;
 }
-.menu > ul > li > a {
+.menu2 > ul > li > a {
     text-decoration: none;
     background-color: var(--rosamedio);
 }
