@@ -31,6 +31,7 @@
     .menu2 > ul {
         width: auto;
         background-color: var(--rosafundo);
+        box-shadow: none;
     }
     .menu2 > ul > li > a {
         display: flex;
