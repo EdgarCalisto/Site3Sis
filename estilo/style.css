@@ -42,6 +42,10 @@ nav{
     display: none;
 }
 
+body > img {
+    width: 10%;
+}
+
 .img2 {
     display: flex;
     justify-content: center;
