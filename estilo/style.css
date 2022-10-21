@@ -46,7 +46,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 60px;
+    padding-top: 30px;
 }
 .material-symbols-outlined {
     padding-left: 60px;
@@ -69,11 +69,14 @@ nav{
     background-color: var(--rosamedio);
     border-radius: 0px 20px 20px 0px;
 }
-
+a:link{
+    color: var(--rosaescuro);
+}
 nav a:hover{
     color: var(--rosaescuro);
     cursor: pointer;
     background-color: #f7f7f7;
+    animation-delay: 1s;
 }
 
 
