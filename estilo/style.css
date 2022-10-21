@@ -32,6 +32,7 @@ body{
 }
 nav > p {
     align-items: flex-start;
+    padding-left: 20px;
 }
 nav{
     color: #595959;
@@ -54,6 +55,9 @@ body > img {
 }
 .material-symbols-outlined {
     padding-left: 60px;
+    padding-top: 05px;
+    padding-bottom: 05px;
+    padding-right: 5px;
     background-color: var(--rosamedio);
     border-radius: 0px 20px 20px 0px;
     cursor: pointer;
@@ -91,7 +95,6 @@ nav a:hover{
     text-decoration: none;
     background-color: var(--rosamedio);
 }
-
 
 :root{
     --rosafundo: #f7f7f7;
