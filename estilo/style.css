@@ -38,17 +38,21 @@ nav{
 }
 
 nav> img{
-    padding-left: 100px;
+    padding-left: 60px;
     padding-right: 50px;  
     padding-top: 25px;
     padding-bottom: 20px;
     background-color: var(--rosafundo);
 }
 
+.material-symbols-outlined {
+    padding-left: 60px;
+}
+
 nav > div > ul {
     font-size: 16px;
     list-style: none;
-    padding-left: 30px;
+    padding-left: 60px;
     text-decoration: none;
 }
 
@@ -78,7 +82,7 @@ main > .Justificar {
 main > div > .Textos {
     background-color:var(--rosafundo);
     padding-top: 40px;
-    padding-left: 100px;
+    padding-left: 60px;
     min-width: 280px;
     max-width: 700px;
     justify-content: left;
