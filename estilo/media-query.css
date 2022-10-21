@@ -24,18 +24,23 @@
     }
     .menu2 > ul > li {
         display: inline-block;
-        align-items: center;
         justify-content: center;
         padding-left: 50px;
+    }
+    .menu2 > ul {
+        width: auto;
+        background-color: var(--rosafundo);
     }
     .menu2 > ul > li > a {
         display: flex;
         justify-content: center;
         align-items: center;
         padding-left: 20px;
-        padding-top: 40px;
-       
+        padding-top: 40px;       
         text-decoration: none;
+        background-color: var(--rosafundo);
+       
+        
     }
        
     main > div > .img {
