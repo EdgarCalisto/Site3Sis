@@ -31,7 +31,9 @@ body{
     background-color:var(--rosafundo)
 
 }
-
+body > nav > div > ul > span {
+    padding-left: 30px;
+}
 
 nav{
     color: #595959;
@@ -103,12 +105,13 @@ nav> div> img{
 }
 
 
-nav > div > ul > li > a{
+nav > div > menu {
     padding-left: 30px;
-    padding-bottom: 250px;
+    padding-bottom: 30px;
     font-size: 16px;
     text-decoration: none;
     transition-duration: .5s;
+    
 }
 
 nav a:hover{
